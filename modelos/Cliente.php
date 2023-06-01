@@ -19,10 +19,10 @@ class Cliente extends Conexion{
     public function guardar(){
             // Validar el NIT antes de guardar los datos
             if (!$this->validarNit($this->cliente_nit)) {
-                echo "El NIT ingresado es inválido. No se guardarán los datos.";
-                // Mostrar un botón para regresar al formulario
-                echo '<button onclick="window.history.back();">Regresar al formulario</button>';
-                // Detener la ejecución del código
+                echo '<div style="background-color: #ff6057; color: white; padding: 10px; border-radius: 5px; margin: 0 400px;">El NIT ingresado es inválido. No se guardarán los datos.</div>';
+                // Mostrar un botón para regresar al formulario con estilo "primary"
+                echo '<button style="background-color: #007bff; color: white; padding: 10px; border: none; cursor: pointer; border-radius: 5px; margin: 0 550px;" onclick="window.history.back();">Regresar al formulario</button>';
+                 // Detener la ejecución del código
                 exit();
             }
     
@@ -30,7 +30,7 @@ class Cliente extends Conexion{
         $resultado = self::ejecutar($sql);
     
         if ($resultado) {
-            echo " ";
+            echo "";
         } else {
             echo "Error al guardar los datos.";
         }
