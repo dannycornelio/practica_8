@@ -1,7 +1,7 @@
 <?php include_once '../../includes/header.php'?>
 <?php include_once '../../includes/navbar.php'?>
     <div class="container">
-        <h1 class="text-center">Formulario de clientes</h1>
+        <h1 class="text-center">INGRESO DE CLIENTES</h1>
         <div class="row justify-content-center">
             <form action="/practica_8/controladores/clientes/guardar.php" method="POST" class="col-lg-8 border bg-light p-3">
                 <div class="row mb-3">
