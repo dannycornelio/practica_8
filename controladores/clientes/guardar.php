@@ -20,6 +20,7 @@ if($_POST['cliente_nombre'] != '' && $_POST['cliente_nit'] != ''){
 }
 
 
+
 // if($resultado){
 //     echo "Guardado exitosamente";
 // }else{
@@ -42,7 +43,7 @@ if($_POST['cliente_nombre'] != '' && $_POST['cliente_nit'] != ''){
             <div class="col-lg-6">
                 <?php if($resultado): ?>
                     <div class="alert alert-success" role="alert">
-                        Guardado exitosamente!
+                        Cliente guardado exitosamente!
                     </div>
                 <?php else :?>
                     <div class="alert alert-danger" role="alert">
@@ -60,3 +61,4 @@ if($_POST['cliente_nombre'] != '' && $_POST['cliente_nit'] != ''){
     </div>
 </body>
 </html>
+
