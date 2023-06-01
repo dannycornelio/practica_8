@@ -50,7 +50,7 @@ if($_POST['cliente_nombre'] != '' && $_POST['cliente_nit'] != ''){
         </div>
         <div class="row">
             <div class="col-lg-4">
-                <a href="/practica8/vistas/clientes/index.php" class="btn btn-info">Volver al formulario</a>
+                <a href="/practica_8/vistas/clientes/index.php" class="btn btn-info">Volver al formulario</a>
             </div>
         </div>
     </div>
