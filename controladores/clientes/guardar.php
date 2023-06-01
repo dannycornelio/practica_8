@@ -20,13 +20,6 @@ if($_POST['cliente_nombre'] != '' && $_POST['cliente_nit'] != ''){
 }
 
 
-
-// if($resultado){
-//     echo "Guardado exitosamente";
-// }else{
-//     echo "Ocurrió un error: $error";
-// }
-
 ?>
 <!DOCTYPE html>
 <html lang="es">
